@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "umfgcloud.loja.webapi.Controllers.HelthcheckController",
+    "Method": "Ping",
+    "RelativePath": "Helthcheck",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

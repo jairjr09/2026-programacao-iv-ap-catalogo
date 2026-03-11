@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>umfgcloud.loja.webapi</name>
+    </assembly>
+    <members>
+        <member name="T:umfgcloud.loja.webapi.Controllers.HelthcheckController">
+            <summary>
+            endpoint de verificação de saúde da API
+            </summary>
+        </member>
+        <member name="M:umfgcloud.loja.webapi.Controllers.HelthcheckController.Ping">
+            <summary>
+            verifica o estado de saúde da API 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

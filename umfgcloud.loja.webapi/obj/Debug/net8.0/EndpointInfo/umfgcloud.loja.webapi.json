@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "umfgcloud.loja.webapi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Helthcheck": {
+      "get": {
+        "tags": [
+          "Helthcheck"
+        ],
+        "summary": "verifica o estado de saúde da API",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

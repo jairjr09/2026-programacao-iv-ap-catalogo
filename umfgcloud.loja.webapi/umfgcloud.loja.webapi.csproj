@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\umfgcloud.loja.aplicacao.service\umfgcloud.loja.aplicacao.service.csproj" />
     <ProjectReference Include="..\umfgcloud.loja.dominio.service\umfgcloud.loja.dominio.service.csproj" />
   </ItemGroup>
 

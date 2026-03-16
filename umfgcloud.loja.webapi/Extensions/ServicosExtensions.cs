@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using umfgcloud.loja.aplicacao.service.Classes;
 using umfgcloud.loja.dominio.service.Interfaces.Servicos;
 
 namespace umfgcloud.loja.webapi.Extensions

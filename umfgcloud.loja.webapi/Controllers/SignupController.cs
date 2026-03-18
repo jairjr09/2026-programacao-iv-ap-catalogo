@@ -13,7 +13,7 @@ namespace umfgcloud.loja.webapi.Controllers
     [ApiController]
     [Route("[controller]")]
 
-    public sealed class SingupController : ControllerBase
+    public sealed class SignupController : ControllerBase
     {   
         // a palavra reservada readonly permite que a variável
         // tenha seu valor manipulado apenas em sua definição
@@ -21,7 +21,7 @@ namespace umfgcloud.loja.webapi.Controllers
 
         private readonly IUsuarioServico _servico;
 
-        public SingupController(IUsuarioServico servico)
+        public SignupController(IUsuarioServico servico)
         {
             _servico = servico ?? throw new ArgumentNullException(nameof(servico));
         }
@@ -41,7 +41,7 @@ namespace umfgcloud.loja.webapi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
             }
         }
     }

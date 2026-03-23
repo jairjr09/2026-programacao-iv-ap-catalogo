@@ -15,12 +15,19 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="T:umfgcloud.loja.webapi.Controllers.SingupController">
+        <member name="M:umfgcloud.loja.webapi.Controllers.SigninController.AutenticarAsync(umfgcloud.loja.dominio.service.DTO.UsuarioDTO.SingInRequest)">
+            <summary>
+            Efetua o login do usuário
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:umfgcloud.loja.webapi.Controllers.SignupController">
             <summary>
             endpoint(s) para cadastrar um usuário
             </summary>
         </member>
-        <member name="M:umfgcloud.loja.webapi.Controllers.SingupController.SignupAsync(umfgcloud.loja.dominio.service.DTO.UsuarioDTO.SingUpRequest)">
+        <member name="M:umfgcloud.loja.webapi.Controllers.SignupController.SignupAsync(umfgcloud.loja.dominio.service.DTO.UsuarioDTO.SingUpRequest)">
             <summary>
             Cadastra um usuário
             </summary>

@@ -1,4 +1,6 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using umfgcloud.loja.dominio.service.Classes;
 
@@ -14,7 +16,7 @@ namespace umfgcloud.loja.webapi.Extensions
             var issuer = configurationSectionJwtOptions
                 .FirstOrDefault(x => x.Key == nameof(JwtOptions.Issuer))?.Value ?? string.Empty;
             var audiance = configurationSectionJwtOptions
-                .FirstOrDefault(x => x.Key == nameof(JwtOptions.Audiance))?.Value ?? string.Empty;
+                .FirstOrDefault(x => x.Key == nameof(JwtOptions.Audience))?.Value ?? string.Empty;
             var securityKey = configurationSectionJwtOptions
                 .FirstOrDefault(x => x.Key == nameof(JwtOptions.SecurityKey))?.Value ?? string.Empty;
 
@@ -40,15 +42,37 @@ namespace umfgcloud.loja.webapi.Extensions
             services.Configure<JwtOptions>(options =>
             {
                 options.Issuer = issuer;
-                options.Audiance = audiance;
+                options.Audience = audiance;
                 options.AcessTokenExpiration = int.Parse(
                     configurationSectionJwtOptions
                     .FirstOrDefault(x => x.Key == nameof(JwtOptions.AcessTokenExpiration))?.Value ?? string.Empty);
                 options.RefreshTokenExpiration = int.Parse(
                     configurationSectionJwtOptions
                     .FirstOrDefault(x => x.Key == nameof(JwtOptions.RefreshTokenExpiration))?.Value ?? string.Empty);
-                options.SigninCredentials =
+                options.SigningCredentials =
                 new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256Signature);
+            });
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequiredLength = 6;
+
+                //definir a autenticação via JWT
+                services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(options =>
+                 {
+                     options.RequireHttpsMetadata = true;
+                     options.SaveToken = true;
+                     options.TokenValidationParameters = tokenValidationParameters;
+                 });
             });
         }
     }

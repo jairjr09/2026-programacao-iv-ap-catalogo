@@ -913,6 +913,9 @@
       "umfgcloud.loja.dominio.service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.16.0"
+        },
         "compile": {
           "bin/placeholder/umfgcloud.loja.dominio.service.dll": {}
         },

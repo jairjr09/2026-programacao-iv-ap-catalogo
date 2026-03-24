@@ -13,7 +13,7 @@
     "ContainingType": "umfgcloud.loja.webapi.Controllers.SigninController",
     "Method": "AutenticarAsync",
     "RelativePath": "Signin",
-    "HttpMethod": "",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

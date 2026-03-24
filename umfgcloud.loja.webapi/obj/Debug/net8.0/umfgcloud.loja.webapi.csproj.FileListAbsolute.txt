@@ -1,3 +1,12 @@
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.csproj.AssemblyReference.cache
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.AssemblyInfoInputs.cache
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.AssemblyInfo.cs
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.csproj.CoreCompileInputs.cache
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.sourcelink.json
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\appsettings.json
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\appsettings.Production.json
@@ -14,6 +23,7 @@ C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgc
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\K4os.Compression.LZ4.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -42,6 +52,12 @@ C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgc
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\MySql.Data.dll
@@ -56,6 +72,7 @@ C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgc
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
@@ -127,15 +144,6 @@ C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgc
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\umfgcloud.infraestrutura.service.pdb
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\umfgcloud.loja.aplicacao.service.pdb
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\bin\Debug\net8.0\umfgcloud.loja.dominio.service.pdb
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.csproj.AssemblyReference.cache
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.AssemblyInfoInputs.cache
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.AssemblyInfo.cs
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.csproj.CoreCompileInputs.cache
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\umfgcloud.loja.webapi.sourcelink.json
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\facec.lab04\source\repos\jairjr09\2026-programacao-iv-ap-catalogo\umfgcloud.loja.webapi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace umfgcloud.loja.dominio.service.Entidades
+{
+    public sealed class ProdutoEntity : AbstractEntity
+    {
+        public string Descricao { get; private set; } = string.Empty;
+        public string EAN { get; private set; } = string.Empty;
+        public decimal ValorCompra { get; private set; } = decimal.Zero;
+        public decimal ValorVenda { get; private set; } = decimal.Zero;
+
+        private ProdutoEntity() : base() { }
+
+        public ProdutoEntity(string userId, string userEmail) : base(userId, userEmail) { }
+
+        public void SetDescricao(string descricao)
+            => Descricao = descricao?.ToUpper() ?? throw new ArgumentNullException(nameof(descricao));
+
+        public void SetEAN(string ean)
+            => EAN = ean ?? throw new ArgumentNullException(nameof(ean));
+
+        public void SetValorCompra(descimal valorCompra)
+        {
+            if (valorCompra <= decimal.Zero)
+                throw new InvalidDataException($"Valor de compra informado {valorCompra} é inválido!");
+
+            ValorCompra = Math.Round(valorCompra, 2);
+        }
+
+        public void SetValorVenda(descimal valorVenda)
+        {
+            if (valorVenda <= decimal.Zero)
+                throw new InvalidDataException($"Valor de venda informado {valorVenda} é inválido!");
+
+            ValorVenda = Math.Round(valorVenda, 2);
+        }
+    }

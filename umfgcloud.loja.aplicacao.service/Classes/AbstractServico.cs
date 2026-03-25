@@ -1,0 +1,61 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.IdentityModel.JsonWebTokens;
+using Microsoft.Net.Http.Headers;
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace umfgcloud.loja.aplicacao.service.Classes
+{
+    public abstract class AbstractServico
+    {
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        protected string UserId { get; private set; } = string.Empty;
+        protected string UserEmail { get; private set; } = string.Empty;
+
+        private string Token { get; set; } = string.Empty;
+        private JwtSecurityToken? UserSecurityToken { get; set; } = null;
+
+        protected AbstractServico(IHttpContextAccessor httpContextAccessor) 
+        {
+            _httpContextAccessor = 
+                httpContextAccessor ?? throw new ArgumentNullException(nameof(httpContextAccessor));
+
+            Token = GetUserToken();
+            UserSecurityToken = GetUserSecurityToken();
+            UserId = GetUserId();
+            UserEmail = GetUserEmail();
+        }
+
+        private string GetUserToken()
+            => _httpContextAccessor
+            .HttpContext
+            .Request
+            .Headers[HeaderNames.Authorization]
+            .ToString()
+            .Split(" ")
+            .LastOrDefault() ?? string.Empty;
+
+        private JwtSecurityToken? GetUserSecurityToken()
+            => new JwtSecurityToken(Token);
+
+        private string GetUserId()
+            => IsPayloadContainsKey(JwtRegisteredClaimNames.NameId)
+            ? GetPayloadValue(JwtRegisteredClaimNames.NameId)
+            : throw new InvalidDataException("Usuário não possui um id válido");
+
+        private string GetUserEmail()
+            => IsPayloadContainsKey(JwtRegisteredClaimNames.Email)
+            ? GetPayloadValue(JwtRegisteredClaimNames.Email)
+            : throw new InvalidDataException("Usuário não possui um email válido");
+
+        private bool IsPayloadContainsKey(string key)
+            => UserSecurityToken?.Payload.ContainsKey(key);
+
+        private string GetPayloadValue(string key)
+            => UserSecurityToken?.Payload[key]?.ToString() ?? string.Empty;
+    }
+}

@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj": {
+                "projectPath": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1910,7 +1910,8 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.25",
           "Microsoft.EntityFrameworkCore": "8.0.25",
           "MySql.Data": "9.6.0",
-          "MySql.EntityFrameworkCore": "10.0.1"
+          "MySql.EntityFrameworkCore": "10.0.1",
+          "umfgcloud.loja.dominio.service": "1.0.0"
         },
         "compile": {
           "bin/placeholder/umfgcloud.infraestrutura.service.dll": {}

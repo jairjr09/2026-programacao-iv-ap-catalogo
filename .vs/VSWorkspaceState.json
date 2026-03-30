@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\umfgcloud.loja.webapi",
-    "\\umfgcloud.loja.webapi\\Controllers"
+    "\\umfgcloud.loja.dominio.service",
+    "\\umfgcloud.loja.dominio.service\\Entidades"
   ],
-  "SelectedNode": "\\umfgcloud.loja.webapi\\Controllers\\SigninController.cs",
+  "SelectedNode": "\\umfgcloud.loja.dominio.service\\Entidades\\ProdutoEntity.cs",
   "PreviewInSolutionExplorer": false
 }

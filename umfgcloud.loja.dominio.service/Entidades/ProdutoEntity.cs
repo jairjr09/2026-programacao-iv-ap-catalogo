@@ -23,7 +23,7 @@ namespace umfgcloud.loja.dominio.service.Entidades
         public void SetEAN(string ean)
             => EAN = ean ?? throw new ArgumentNullException(nameof(ean));
 
-        public void SetValorCompra(descimal valorCompra)
+        public void SetValorCompra(decimal valorCompra)
         {
             if (valorCompra <= decimal.Zero)
                 throw new InvalidDataException($"Valor de compra informado {valorCompra} é inválido!");
@@ -31,7 +31,7 @@ namespace umfgcloud.loja.dominio.service.Entidades
             ValorCompra = Math.Round(valorCompra, 2);
         }
 
-        public void SetValorVenda(descimal valorVenda)
+        public void SetValorVenda(decimal valorVenda)
         {
             if (valorVenda <= decimal.Zero)
                 throw new InvalidDataException($"Valor de venda informado {valorVenda} é inválido!");

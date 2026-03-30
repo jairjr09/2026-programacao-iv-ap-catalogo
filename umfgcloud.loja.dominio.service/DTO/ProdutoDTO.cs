@@ -16,7 +16,7 @@ namespace umfgcloud.loja.dominio.service.DTO
             [Required(ErrorMessage = "O atributo descricao é obrigatório.")]
 
             public string Descricao { get; set; } = string.Empty;
-            [JsonPropertyName("ean")
+            [JsonPropertyName("ean")]
             [Required(ErrorMessage = "O atributo ean é obrigatório.")]
 
             public string EAN { get; set; } = string.Empty;

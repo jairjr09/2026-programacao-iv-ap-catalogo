@@ -73,6 +73,25 @@
           }
         }
       },
+      "Mapster/10.0.6": {
+        "dependencies": {
+          "Mapster.Core": "10.0.6"
+        },
+        "runtime": {
+          "lib/net8.0/Mapster.dll": {
+            "assemblyVersion": "10.0.6.0",
+            "fileVersion": "10.0.6.0"
+          }
+        }
+      },
+      "Mapster.Core/10.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Mapster.Core.dll": {
+            "assemblyVersion": "10.0.6.0",
+            "fileVersion": "10.0.6.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.3.0",
@@ -1080,7 +1099,8 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.25",
           "Microsoft.EntityFrameworkCore": "8.0.25",
           "MySql.Data": "9.6.0",
-          "MySql.EntityFrameworkCore": "10.0.1"
+          "MySql.EntityFrameworkCore": "10.0.1",
+          "umfgcloud.loja.dominio.service": "1.0.0"
         },
         "runtime": {
           "umfgcloud.infraestrutura.service.dll": {
@@ -1091,6 +1111,7 @@
       },
       "umfgcloud.loja.aplicacao.service/1.0.0": {
         "dependencies": {
+          "Mapster": "10.0.6",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.25",
           "Microsoft.AspNetCore.Identity": "2.3.9",
           "Microsoft.AspNetCore.Identity.UI": "8.0.25",
@@ -1164,6 +1185,20 @@
       "sha512": "sha512-Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
       "path": "k4os.hash.xxhash/1.0.8",
       "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
+    },
+    "Mapster/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wFNXuXzxPzJbpHEVnhx0m0YZwWcE2MPhtcifZ9QM1hvRsv86mBsQkXio74oNQDb7Wa96ThKuUjqYU3mSTMip1w==",
+      "path": "mapster/10.0.6",
+      "hashPath": "mapster.10.0.6.nupkg.sha512"
+    },
+    "Mapster.Core/10.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GzYLzCJBGcnHCU5zh2665uqHb2y2E9d1sWIIIu/K7nK9xU8NQH3hGCYp5pySMdwhJZS1+d7KAOIsrqLBh550EA==",
+      "path": "mapster.core/10.0.6",
+      "hashPath": "mapster.core.10.0.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.3.0": {
       "type": "package",

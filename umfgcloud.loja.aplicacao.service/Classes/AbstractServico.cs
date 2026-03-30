@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.Net.Http.Headers;
 using System;
 using System.Collections.Generic;
@@ -53,7 +52,7 @@ namespace umfgcloud.loja.aplicacao.service.Classes
             : throw new InvalidDataException("Usuário não possui um email válido");
 
         private bool IsPayloadContainsKey(string key)
-            => UserSecurityToken?.Payload.ContainsKey(key);
+            => UserSecurityToken?.Payload.ContainsKey(key) ?? false;
 
         private string GetPayloadValue(string key)
             => UserSecurityToken?.Payload[key]?.ToString() ?? string.Empty;

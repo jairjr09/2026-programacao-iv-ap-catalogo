@@ -9,10 +9,10 @@ using umfgcloud.loja.dominio.service.Entidades;
 
 namespace umfgcloud.infraestrutura.service.Maps
 {
-    internal sealed class AbstractEntityMap<T> : IEntityTypeConfiguration<T>
+    internal abstract class AbstractEntityMap<T> : IEntityTypeConfiguration<T>
         where T : AbstractEntity
     {
-        public void Configure(EntityTypeBuilder<T> builder)
+        public virtual void Configure(EntityTypeBuilder<T> builder)
         {
             builder.HasKey(x => x.Id);
 

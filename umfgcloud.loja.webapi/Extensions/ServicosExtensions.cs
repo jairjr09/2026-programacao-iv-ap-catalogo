@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using umfgcloud.infraestrutura.service.Classes;
 using umfgcloud.infraestrutura.service.Context;
 using umfgcloud.loja.aplicacao.service.Classes;
+using umfgcloud.loja.dominio.service.Interfaces.Repositorios;
 using umfgcloud.loja.dominio.service.Interfaces.Servicos;
 
 namespace umfgcloud.loja.webapi.Extensions
@@ -20,6 +22,12 @@ namespace umfgcloud.loja.webapi.Extensions
                 .AddDefaultTokenProviders();
 
             services.AddScoped<IUsuarioServico, UsuarioServico>();
+
+            // respeitar a criação de hierarquia das instâncias
+            // produto servico depende de produto repositorio
+            // repositorio deve ser definido antes
+            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+            services.AddScoped<IProdutoServico, ProdutoServico>();
         }
     }
 }

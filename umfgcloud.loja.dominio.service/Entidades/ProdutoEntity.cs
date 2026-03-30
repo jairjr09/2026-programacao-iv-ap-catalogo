@@ -39,3 +39,4 @@ namespace umfgcloud.loja.dominio.service.Entidades
             ValorVenda = Math.Round(valorVenda, 2);
         }
     }
+}

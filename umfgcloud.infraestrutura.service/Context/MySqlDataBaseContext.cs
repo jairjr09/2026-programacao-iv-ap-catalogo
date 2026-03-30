@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using umfgcloud.infraestrutura.service.Extensions;
+using umfgcloud.infraestrutura.service.Maps;
 
 namespace umfgcloud.infraestrutura.service.Context
 {
@@ -17,6 +18,8 @@ namespace umfgcloud.infraestrutura.service.Context
             base.OnModelCreating(builder);
 
             builder.ConfigureToMySql();
+
+            builder.ApplyConfiguration(new ProdutoMap());
         }
 
         private void ApplyMigrations()

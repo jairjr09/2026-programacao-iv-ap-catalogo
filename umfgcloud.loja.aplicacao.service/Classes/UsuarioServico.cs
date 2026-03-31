@@ -53,8 +53,11 @@ namespace umfgcloud.loja.aplicacao.service.Classes
             var identityUser = (await _userManager.FindByEmailAsync(dto.Email))
                 ?? throw new ArgumentException("Usuário não encontrado!");
             var claims = new List<Claim>();
-            claims.Add(new Claim(JwtRegisteredClaimNames.NameId, identityUser.Id));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Email, identityUser.Email));
+
+            // convenção do JWT
+            claims.Add(new Claim(ClaimTypes.NameIdentifier, identityUser.Id));
+            claims.Add(new Claim(ClaimTypes.Name, identityUser.UserName ?? string.Empty));
+            claims.Add(new Claim(ClaimTypes.Email, identityUser.Email ?? string.Empty));
 
             var token = new JwtSecurityToken
                 (

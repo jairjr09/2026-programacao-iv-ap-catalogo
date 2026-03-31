@@ -20,7 +20,7 @@ namespace umfgcloud.loja.webapi.Extensions
             var securityKey = configurationSectionJwtOptions
                 .FirstOrDefault(x => x.Key == nameof(JwtOptions.SecurityKey))?.Value ?? string.Empty;
 
-            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(securityKey));
+            var symmetricSecurityKey = new SymmetricSecurityKey(Convert.FromBase64String(securityKey));
 
             var tokenValidationParameters = new TokenValidationParameters
             {

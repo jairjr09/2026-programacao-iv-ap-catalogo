@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umfgcloud.loja.webapi", "um
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umfgcloud.infraestrutura.service", "umfgcloud.infraestrutura.service\umfgcloud.infraestrutura.service.csproj", "{8EC08C7B-A7F9-4B66-925C-BCE558FE5FEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umfgcloud.aplicacao.service.testes", "umfgcloud.aplicacao.service.testes\umfgcloud.aplicacao.service.testes.csproj", "{74C644DA-090F-4736-8CC4-92A8F6DCE98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{8EC08C7B-A7F9-4B66-925C-BCE558FE5FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC08C7B-A7F9-4B66-925C-BCE558FE5FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC08C7B-A7F9-4B66-925C-BCE558FE5FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C644DA-090F-4736-8CC4-92A8F6DCE98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C644DA-090F-4736-8CC4-92A8F6DCE98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C644DA-090F-4736-8CC4-92A8F6DCE98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C644DA-090F-4736-8CC4-92A8F6DCE98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{D1C1A398-0C6C-48A2-8253-8666DB11DAD2} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
 		{D6E842A1-0843-4402-AAED-F7102CEA9D5F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8EC08C7B-A7F9-4B66-925C-BCE558FE5FEB} = {643747C7-0307-8931-84D8-A7D1915E22E5}
+		{74C644DA-090F-4736-8CC4-92A8F6DCE98A} = {5835D766-9847-1D08-5E95-5A99FD0F495D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82836337-EA90-4A5E-96FD-71B210A8A779}

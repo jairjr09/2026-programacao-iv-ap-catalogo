@@ -11,11 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("umfgcloud.loja.aplicacao.service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6974e4fa97cfb4deaf424e646d208ee9ffd63e71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c80fc4ca40903b788ab8e38c3feadb483f3994d")]
 [assembly: System.Reflection.AssemblyProductAttribute("umfgcloud.loja.aplicacao.service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("umfgcloud.loja.aplicacao.service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,6 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umfgcloud.infraestrutura.se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umfgcloud.aplicacao.service.testes", "umfgcloud.aplicacao.service.testes\umfgcloud.aplicacao.service.testes.csproj", "{74C644DA-090F-4736-8CC4-92A8F6DCE98A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

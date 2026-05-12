@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\umfgcloud.aplicacao.service.testes",
+    "\\umfgcloud.aplicacao.service.testes\\Classes"
   ],
-  "SelectedNode": "\\umfgcloud.loja.service.sln",
+  "SelectedNode": "\\umfgcloud.aplicacao.service.testes\\Classes\\ProdutoServicoTestes.cs",
   "PreviewInSolutionExplorer": false
 }

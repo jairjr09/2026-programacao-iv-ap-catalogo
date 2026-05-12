@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|NewFolder1{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|NewFolder1{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|NewFolder1{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|NewFolder1{699B2A4B-07BD-4432-B09A-C2A77C6BD3FA}|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74C644DA-090F-4736-8CC4-92A8F6DCE98A}|umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj|c:\\users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\classes\\produtoservicotestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C644DA-090F-4736-8CC4-92A8F6DCE98A}|umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj|solutionrelative:umfgcloud.aplicacao.service.testes\\classes\\produtoservicotestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,7 +41,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T00:17:17.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T00:17:16.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AbstractServicoTestes.cs",
               "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\Classes\\AbstractServicoTestes.cs",
               "RelativeDocumentMoniker": "umfgcloud.aplicacao.service.testes\\Classes\\AbstractServicoTestes.cs",
@@ -41,12 +75,11 @@
               "RelativeToolTip": "umfgcloud.aplicacao.service.testes\\Classes\\AbstractServicoTestes.cs",
               "ViewState": "AgIAABACAAAAAAAAAAAgwBgCAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:40:32.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T22:40:32.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProdutoServicoTestes.cs",
               "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\Classes\\ProdutoServicoTestes.cs",
               "RelativeDocumentMoniker": "umfgcloud.aplicacao.service.testes\\Classes\\ProdutoServicoTestes.cs",
@@ -59,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProdutoServico.cs",
               "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\Classes\\ProdutoServico.cs",
               "RelativeDocumentMoniker": "umfgcloud.loja.aplicacao.service\\Classes\\ProdutoServico.cs",
@@ -67,12 +100,11 @@
               "RelativeToolTip": "umfgcloud.loja.aplicacao.service\\Classes\\ProdutoServico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:19:30.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T22:19:30.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -80,8 +112,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.307\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAP0AAAAAAAAAAAApwAoBAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-04-27T23:26:05.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T23:26:05.292Z"
             },
             {
               "$type": "Bookmark",

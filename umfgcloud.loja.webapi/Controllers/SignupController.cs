@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using umfgcloud.loja.aplicacao.service.Classes;
 using umfgcloud.loja.dominio.service.DTO;
 using umfgcloud.loja.dominio.service.Interfaces.Servicos;
 
 namespace umfgcloud.loja.webapi.Controllers
 {
-
     /// <summary>
     /// endpoint(s) para cadastrar um usuário
     /// </summary>
@@ -12,16 +13,14 @@ namespace umfgcloud.loja.webapi.Controllers
     [ApiExplorerSettings(GroupName = "v1")]
     [ApiController]
     [Route("[controller]")]
-
-    public sealed class SignupController : ControllerBase
-    {   
-        // a palavra reservada readonly permite que a variável
-        // tenha seu valor manipulado apenas em sua definição
-        // ou dentro do método construtor
-
+    public sealed class SingupController : ControllerBase
+    {
+        //a palavra reservada readonly permite que a variavel 
+        //tenha seu valor manipulado apenas em sua definição
+        //ou dentro do método construtos
         private readonly IUsuarioServico _servico;
 
-        public SignupController(IUsuarioServico servico)
+        public SingupController(IUsuarioServico servico)
         {
             _servico = servico ?? throw new ArgumentNullException(nameof(servico));
         }
@@ -32,7 +31,7 @@ namespace umfgcloud.loja.webapi.Controllers
         /// <param name="dto"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> SignupAsync(UsuarioDTO.SingUpRequest dto)
+        public async Task<IActionResult> SingupAsync(UsuarioDTO.SingUpRequest dto)
         {
             try
             {

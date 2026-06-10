@@ -363,7 +363,7 @@ namespace umfgcloud.aplicacao.service.testes.Classes
         private static Mock<SignInManager<IdentityUser>> GetMockSignInManager()
         {
             var userManager = GetUserManagerSuccess();
-            var contextAccessor = GetHttpContextAccessor();
+            var contextAccessor = GetHttpContextAccessorValidJWT();
             var claimsFactory = GetClaimsFactory();
 
             return new Mock<SignInManager<IdentityUser>>(userManager, contextAccessor, claimsFactory, null, null, null, null);

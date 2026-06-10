@@ -16,8 +16,8 @@ namespace umfgcloud.loja.webapi.Controllers
 
         /// <summary>
         /// Efetua o login do usuário
-        /// Aula 27/04/2026 conceito de refatoração
-        /// Alterar os atritubos internos do código sem alterar o seu comportamento
+        /// Aula 27/04/2026 conceito de refatoração:
+        ///     Alterar os atributos internos do código sem alterar o seu comportamento
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>

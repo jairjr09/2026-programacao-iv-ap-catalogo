@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g/ZmoG2sAQs=",
+  "dgSpecHash": "mfUgZ3JSQNs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj",
+  "projectFilePath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\facec.lab04\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\facec.lab04\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

@@ -126,5 +126,160 @@ namespace umfgcloud.aplicacao.service.testes.Classes
                 Assert.Fail(ex.Message);
             }
         }
+
+        [TestMethod]
+        [Owner(C_OWNER)]
+        [TestCategory(C_CATEGORY)]
+        public async Task ProdutoServico_ObterTodosAsync_Sucesso()
+        {
+            try
+            {
+                using var context = GetSqlServerDatabaseContext(Guid.NewGuid().ToString());
+
+                var servico = GetProdutoServicoValidJWT(context);
+
+                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
+                {
+                    Descricao = "PRODUTO 1",
+                    EAN = "111",
+                    ValorCompra = 10,
+                    ValorVenda = 20
+                });
+
+                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
+                {
+                    Descricao = "PRODUTO 2",
+                    EAN = "222",
+                    ValorCompra = 20,
+                    ValorVenda = 40
+                });
+
+                var produtos = await servico.ObterTodosAsync();
+
+                Assert.AreEqual(2, produtos.Count());
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
+        [TestMethod]
+        [Owner(C_OWNER)]
+        [TestCategory(C_CATEGORY)]
+        public async Task ProdutoServico_ObterPorIdAsync_Sucesso()
+        {
+            try
+            {
+                using var context = GetSqlServerDatabaseContext(Guid.NewGuid().ToString());
+
+                var servico = GetProdutoServicoValidJWT(context);
+
+                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
+                {
+                    Descricao = "NOTEBOOK",
+                    EAN = "123456",
+                    ValorCompra = 2500,
+                    ValorVenda = 3500
+                });
+
+                var produtoInserido =
+                    (await servico.ObterTodosAsync()).First();
+
+                var produto =
+                    await servico.ObterPorIdAsync(produtoInserido.Id);
+
+                Assert.IsNotNull(produto);
+                Assert.AreEqual(produtoInserido.Id, produto.Id);
+                Assert.AreEqual("NOTEBOOK", produto.Descricao);
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
+        [TestMethod]
+        [Owner(C_OWNER)]
+        [TestCategory(C_CATEGORY)]
+        public async Task ProdutoServico_AtualizarAsync_Sucesso()
+        {
+            try
+            {
+                using var context = GetSqlServerDatabaseContext(Guid.NewGuid().ToString());
+
+                var servico = GetProdutoServicoValidJWT(context);
+
+                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
+                {
+                    Descricao = "MOUSE",
+                    EAN = "111",
+                    ValorCompra = 20,
+                    ValorVenda = 40
+                });
+
+                var produto =
+                    (await servico.ObterTodosAsync()).First();
+
+                var dto = new ProdutoDTO.ProdutoRequestWithId()
+                {
+                    Id = produto.Id,
+                    Descricao = "MOUSE GAMER",
+                    EAN = "999",
+                    ValorCompra = 30,
+                    ValorVenda = 80
+                };
+
+                await servico.AtualizarAsync(dto);
+
+                var atualizado =
+                    await servico.ObterPorIdAsync(produto.Id);
+
+                Assert.AreEqual("MOUSE GAMER", atualizado.Descricao);
+                Assert.AreEqual("999", atualizado.EAN);
+                Assert.AreEqual(30m, atualizado.ValorCompra);
+                Assert.AreEqual(80m, atualizado.ValorVenda);
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
+        [TestMethod]
+        [Owner(C_OWNER)]
+        [TestCategory(C_CATEGORY)]
+        public async Task ProdutoServico_RemoverAsync_Sucesso()
+        {
+            try
+            {
+                using var context = GetSqlServerDatabaseContext(Guid.NewGuid().ToString());
+
+                var servico = GetProdutoServicoValidJWT(context);
+
+                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
+                {
+                    Descricao = "TECLADO",
+                    EAN = "123",
+                    ValorCompra = 50,
+                    ValorVenda = 100
+                });
+
+                var produto =
+                    (await servico.ObterTodosAsync()).First();
+
+                await servico.RemoverAsync(produto.Id);
+
+                var produtos =
+                    await servico.ObterTodosAsync();
+
+                Assert.AreEqual(0, produtos.Count());
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
     }
 }

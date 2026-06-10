@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHESqwE0sxw=",
+  "dgSpecHash": "aAYelrj8uIo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\facec.lab04\\source\\repos\\jairjr09\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+  "projectFilePath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\facec.lab04\\.nuget\\packages\\mapster\\10.0.6\\mapster.10.0.6.nupkg.sha512",
     "C:\\Users\\facec.lab04\\.nuget\\packages\\mapster.core\\10.0.6\\mapster.core.10.0.6.nupkg.sha512",

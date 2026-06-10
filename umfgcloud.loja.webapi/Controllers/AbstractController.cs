@@ -4,10 +4,10 @@ namespace umfgcloud.loja.webapi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AbstractController : ControllerBase
-    {   
+    public abstract class AbstractController : ControllerBase
+    {
         protected async Task<IActionResult> InvokeMethodAsync<T, TResult>(
-            Func<T, Task<IResult>> method, T args)
+            Func<T, Task<TResult>> method, T args)
         {
             try
             {
@@ -22,7 +22,22 @@ namespace umfgcloud.loja.webapi.Controllers
             }
         }
 
+        protected async Task<IActionResult> InvokeMethodAsync<TResult>(Func<Task<TResult>> method)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(GetMessageErrors());
+
+                return Ok(await method.Invoke());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         private string GetMessageErrors()
-            => string.Join("\n", ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage)); 
+            => string.Join("\n", ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
     }
 }

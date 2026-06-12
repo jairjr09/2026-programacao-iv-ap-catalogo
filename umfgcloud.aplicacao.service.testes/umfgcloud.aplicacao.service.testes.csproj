@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -19,12 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\umfgcloud.infraestrutura.service\umfgcloud.infraestrutura.service.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="umfgcloud.loja.aplicacao.service">
-      <HintPath>..\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\ref\umfgcloud.loja.aplicacao.service.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\umfgcloud.loja.aplicacao.service\umfgcloud.loja.aplicacao.service.csproj" />
   </ItemGroup>
 
   <ItemGroup>

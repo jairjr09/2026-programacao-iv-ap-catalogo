@@ -105,9 +105,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "umfgcloud.loja.webapi.Controllers.SignupController",
-    "Method": "SignupAsync",
-    "RelativePath": "Signup",
+    "ContainingType": "umfgcloud.loja.webapi.Controllers.SingupController",
+    "Method": "SingupAsync",
+    "RelativePath": "Singup",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

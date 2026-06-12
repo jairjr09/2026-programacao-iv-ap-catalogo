@@ -30,3 +30,19 @@ C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.loja.ap
 C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\refint\umfgcloud.loja.aplicacao.service.dll
 C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.pdb
 C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\ref\umfgcloud.loja.aplicacao.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\bin\Debug\net8.0\umfgcloud.loja.aplicacao.service.deps.json
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\bin\Debug\net8.0\umfgcloud.loja.aplicacao.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\bin\Debug\net8.0\umfgcloud.loja.aplicacao.service.pdb
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\bin\Debug\net8.0\umfgcloud.loja.dominio.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\bin\Debug\net8.0\umfgcloud.loja.dominio.service.pdb
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.csproj.AssemblyReference.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.AssemblyInfoInputs.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.AssemblyInfo.cs
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.csproj.CoreCompileInputs.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.sourcelink.json
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgclou.7D16C6FA.Up2Date
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\refint\umfgcloud.loja.aplicacao.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\umfgcloud.loja.aplicacao.service.pdb
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.loja.aplicacao.service\obj\Debug\net8.0\ref\umfgcloud.loja.aplicacao.service.dll

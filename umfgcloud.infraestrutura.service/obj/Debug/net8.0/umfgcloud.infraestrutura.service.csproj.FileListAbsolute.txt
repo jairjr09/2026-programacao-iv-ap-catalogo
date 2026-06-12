@@ -34,3 +34,21 @@ C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.infraes
 C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.pdb
 C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.genruntimeconfig.cache
 C:\Users\facec.lab04\Downloads\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\ref\umfgcloud.infraestrutura.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\bin\Debug\net8.0\umfgcloud.infraestrutura.service.deps.json
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\bin\Debug\net8.0\umfgcloud.infraestrutura.service.runtimeconfig.json
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\bin\Debug\net8.0\umfgcloud.infraestrutura.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\bin\Debug\net8.0\umfgcloud.infraestrutura.service.pdb
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\bin\Debug\net8.0\umfgcloud.loja.dominio.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\bin\Debug\net8.0\umfgcloud.loja.dominio.service.pdb
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.csproj.AssemblyReference.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.AssemblyInfoInputs.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.AssemblyInfo.cs
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.csproj.CoreCompileInputs.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.sourcelink.json
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgclou.59D2BDE8.Up2Date
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\refint\umfgcloud.infraestrutura.service.dll
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.pdb
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\umfgcloud.infraestrutura.service.genruntimeconfig.cache
+C:\Downloads Faculdade\Trabalho-Testes Unitarios\2026-programacao-iv-ap-catalogo\2026-programacao-iv-ap-catalogo\umfgcloud.infraestrutura.service\obj\Debug\net8.0\ref\umfgcloud.infraestrutura.service.dll

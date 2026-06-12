@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj": {}
+    "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj": {
+    "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj",
+        "projectUniqueName": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj",
         "projectName": "umfgcloud.aplicacao.service.testes",
-        "projectPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj",
-        "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\obj\\",
+        "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\umfgcloud.aplicacao.service.testes.csproj",
+        "packagesPath": "C:\\Users\\JuninMITO\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.aplicacao.service.testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JuninMITO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj": {
-                "projectPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj"
+              "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj": {
+                "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj"
+              },
+              "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj": {
+                "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj"
               }
             }
           }
@@ -49,10 +52,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MSTest": {
@@ -100,24 +104,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj": {
+    "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj",
+        "projectUniqueName": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj",
         "projectName": "umfgcloud.infraestrutura.service",
-        "projectPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj",
-        "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\obj\\",
+        "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\umfgcloud.infraestrutura.service.csproj",
+        "packagesPath": "C:\\Users\\JuninMITO\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.infraestrutura.service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JuninMITO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -126,15 +130,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj": {
-                "projectPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj"
+              "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj": {
+                "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj"
               }
             }
           }
@@ -149,10 +153,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
@@ -198,24 +203,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj": {
+    "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj",
-        "projectName": "umfgcloud.loja.dominio.service",
-        "projectPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj",
-        "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab04\\Downloads\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\obj\\",
+        "projectUniqueName": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+        "projectName": "umfgcloud.loja.aplicacao.service",
+        "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\umfgcloud.loja.aplicacao.service.csproj",
+        "packagesPath": "C:\\Users\\JuninMITO\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.aplicacao.service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JuninMITO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -224,11 +229,100 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj": {
+                "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj",
+        "projectName": "umfgcloud.loja.dominio.service",
+        "projectPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\umfgcloud.loja.dominio.service.csproj",
+        "packagesPath": "C:\\Users\\JuninMITO\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads Faculdade\\Trabalho-Testes Unitarios\\2026-programacao-iv-ap-catalogo\\2026-programacao-iv-ap-catalogo\\umfgcloud.loja.dominio.service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JuninMITO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -243,10 +337,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.IdentityModel.JsonWebTokens": {
@@ -270,7 +365,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

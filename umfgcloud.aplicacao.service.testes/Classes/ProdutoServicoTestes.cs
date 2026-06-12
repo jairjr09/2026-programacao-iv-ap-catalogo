@@ -12,6 +12,7 @@ namespace umfgcloud.aplicacao.service.testes.Classes
     public sealed class ProdutoServicoTestes : AbstractServicoTestes
     {
         private const string C_OWNER = "Juliano Maciel";
+        private const string C_OWNER2 = "Jair Júnior";
         private const string C_CATEGORY = "produto";
         private const decimal C_VALOR_NEGATIVO = -89.90m;
 
@@ -128,7 +129,7 @@ namespace umfgcloud.aplicacao.service.testes.Classes
         }
 
         [TestMethod]
-        [Owner(C_OWNER)]
+        [Owner(C_OWNER2)]
         [TestCategory(C_CATEGORY)]
         public async Task ProdutoServico_ObterTodosAsync_Sucesso()
         {
@@ -165,7 +166,7 @@ namespace umfgcloud.aplicacao.service.testes.Classes
         }
 
         [TestMethod]
-        [Owner(C_OWNER)]
+        [Owner(C_OWNER2)]
         [TestCategory(C_CATEGORY)]
         public async Task ProdutoServico_ObterPorIdAsync_Sucesso()
         {
@@ -200,7 +201,42 @@ namespace umfgcloud.aplicacao.service.testes.Classes
         }
 
         [TestMethod]
-        [Owner(C_OWNER)]
+        [Owner(C_OWNER2)]
+        [TestCategory(C_CATEGORY)]
+        public async Task ProdutoServico_RemoverAsync_Sucesso()
+        {
+            try
+            {
+                using var context = GetSqlServerDatabaseContext(Guid.NewGuid().ToString());
+
+                var servico = GetProdutoServicoValidJWT(context);
+
+                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
+                {
+                    Descricao = "TECLADO",
+                    EAN = "123",
+                    ValorCompra = 50,
+                    ValorVenda = 100
+                });
+
+                var produto =
+                    (await servico.ObterTodosAsync()).First();
+
+                await servico.RemoverAsync(produto.Id);
+
+                var produtos =
+                    await servico.ObterTodosAsync();
+
+                Assert.AreEqual(0, produtos.Count());
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
+        [TestMethod]
+        [Owner(C_OWNER2)]
         [TestCategory(C_CATEGORY)]
         public async Task ProdutoServico_AtualizarAsync_Sucesso()
         {
@@ -245,41 +281,5 @@ namespace umfgcloud.aplicacao.service.testes.Classes
                 Assert.Fail(ex.Message);
             }
         }
-
-        [TestMethod]
-        [Owner(C_OWNER)]
-        [TestCategory(C_CATEGORY)]
-        public async Task ProdutoServico_RemoverAsync_Sucesso()
-        {
-            try
-            {
-                using var context = GetSqlServerDatabaseContext(Guid.NewGuid().ToString());
-
-                var servico = GetProdutoServicoValidJWT(context);
-
-                await servico.AdicionarAsync(new ProdutoDTO.ProdutoRequest()
-                {
-                    Descricao = "TECLADO",
-                    EAN = "123",
-                    ValorCompra = 50,
-                    ValorVenda = 100
-                });
-
-                var produto =
-                    (await servico.ObterTodosAsync()).First();
-
-                await servico.RemoverAsync(produto.Id);
-
-                var produtos =
-                    await servico.ObterTodosAsync();
-
-                Assert.AreEqual(0, produtos.Count());
-            }
-            catch (Exception ex)
-            {
-                Assert.Fail(ex.Message);
-            }
-        }
-
     }
 }

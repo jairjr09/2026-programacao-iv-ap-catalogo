@@ -145,7 +145,7 @@
         "tags": [
           "Signin"
         ],
-        "summary": "Efetua o login do usuário",
+        "summary": "Efetua o login do usuário\r\nAula 27/04/2026 conceito de refatoração:\r\n    Alterar os atributos internos do código sem alterar o seu comportamento",
         "requestBody": {
           "description": "",
           "content": {
@@ -173,10 +173,10 @@
         }
       }
     },
-    "/Signup": {
+    "/Singup": {
       "post": {
         "tags": [
-          "Signup"
+          "Singup"
         ],
         "summary": "Cadastra um usuário",
         "requestBody": {
